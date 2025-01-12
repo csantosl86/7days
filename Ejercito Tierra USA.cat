@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="016b-2719-7d72-8d4c" name="Estados Unidos" gameSystemId="sys-8421-eea8-956c-bce3" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" publicationId="b309-55fc-9475-2147">
+  <selectionEntries>
+    <selectionEntry type="unit" import="false" name="AH1 Cobra" hidden="false" id="469a-bc41-5188-00ba">
+      <categoryLinks>
+        <categoryLink targetId="2ab5-8fab-71e5-5d15" id="fc7e-3241-c33e-2e72" primary="true" name="Helicopteros"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="100"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="13"/>
+      </costs>
+      <profiles>
+        <profile name="AH1 Cobra" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="8d8a-95f0-6cc0-a903">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Atk Helo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">AH1 Cobra</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">2</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">n/a</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Cohetes" id="9ade-0dd5-57ea-1cd7" hidden="false" type="rule" targetId="5760-d5b8-0baa-ea79"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="AH64 Apache" hidden="false" id="52eb-9be5-a114-134e">
+      <categoryLinks>
+        <categoryLink targetId="2ab5-8fab-71e5-5d15" id="aa9e-6667-c1dc-3505" primary="true" name="Helicopteros"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="110"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="14"/>
+      </costs>
+      <profiles>
+        <profile name="AH64 Apache" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="8a88-2722-a591-2fe9">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Helicoptero de Ataque</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">AH64 APACHE</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">2</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">n/a</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">4+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">10h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Cohetes" id="9527-6306-0b7d-64e4" hidden="false" type="rule" targetId="5760-d5b8-0baa-ea79"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="CH47 Chinook" hidden="false" id="081d-6c54-74fb-2a95">
+      <categoryLinks>
+        <categoryLink targetId="2ab5-8fab-71e5-5d15" id="9cad-c8e7-973d-8d64" primary="true" name="Helicopteros"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="35"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="6"/>
+      </costs>
+      <profiles>
+        <profile name="CH47 Chinook" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="b150-f81f-e1e7-32bb">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Trans. Helo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">CH47 Chinook</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">n/a</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">n/a</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">n/a</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="APC+" id="0618-2b12-ea1d-4650" hidden="false">
+          <description>Un APC puede transportar a una infantería o a una unidad de apoyo. Cuando elijas las fuerzas para un escenario puedes elegir un APC si tienes una unidad de infantería o apoyo para transportar.
+
+
+Por ejemplo, puedes comprar un APC sovietico BMP1 y también una unidad de infantería para tranportarla, dando un valor total de 47 (14+33). No puedes comprar un APC sin comprar una unidad parar transportarla. Los APCs no generan fichas de Mando parar la Reserva de Fichas de Mando del Grupo de Batalla.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="HU-1 Huey" hidden="false" id="e34a-de49-1eab-3902">
+      <categoryLinks>
+        <categoryLink targetId="2ab5-8fab-71e5-5d15" id="6842-15a0-cd91-0858" primary="true" name="Helicopteros"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="30"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="6"/>
+      </costs>
+      <profiles>
+        <profile name="HU-1 Huey" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="828c-3a85-313e-b5fa">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Trans. Helo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">HU-1 Huey</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">n/a</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">n/a</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">n/a</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="APC" id="542a-d3c9-4cda-d1cb" hidden="false">
+          <description>Un APC puede transportar a una infantería o a una unidad de apoyo. Cuando elijas las fuerzas para un escenario puedes elegir un APC si tienes una unidad de infantería o apoyo para transportar.
+
+
+Por ejemplo, puedes comprar un APC sovietico BMP1 y también una unidad de infantería para tranportarla, dando un valor total de 47 (14+33). No puedes comprar un APC sin comprar una unidad parar transportarla. Los APCs no generan fichas de Mando parar la Reserva de Fichas de Mando del Grupo de Batalla.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M1" hidden="false" id="eb69-f8e3-6900-1b17">
+      <categoryLinks>
+        <categoryLink targetId="715d-e13c-5e1c-2148" id="363d-e548-68be-b896" primary="true" name="MBTs"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="65"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="8"/>
+      </costs>
+      <profiles>
+        <profile name="M1" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="da3f-fadc-977a-6e77">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">MBT</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M1</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">18s</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">16s</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">10</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">6</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Blindaje Especial" id="bbaf-9bbd-4fae-e9cf" hidden="false" page="">
+          <description>Si un arma con valor de arma “h” impacta a un blindaje con valor “s” tira 2d10 y elige el valor inferior.</description>
+        </rule>
+        <rule name="Rápido" id="ef02-b903-485f-4676" hidden="false">
+          <description>Este tanque es excepcionalmente veloz. Usa la categoría de MBT Rápido de la Tabla de Movimiento.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M1A1 &quot;Imp&quot;" hidden="false" id="b75d-f1e9-d321-c8b5">
+      <categoryLinks>
+        <categoryLink targetId="715d-e13c-5e1c-2148" id="49a3-f881-c69b-9712" primary="true" name="MBTs"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="78"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="10"/>
+      </costs>
+      <profiles>
+        <profile name="M1A1 &quot;Imp&quot;" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="b098-5f5b-04f3-86b9">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">MBT</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M1A1 &quot;Imp&quot;</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">19s</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">17s</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">10</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">6</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Blindaje Especial" id="7801-57fe-47ac-2b29" hidden="false" page="">
+          <description>Si un arma con valor de arma “h” impacta a un blindaje con valor “s” tira 2d10 y elige el valor inferior.</description>
+        </rule>
+        <rule name="Rápido" id="ceec-7831-7bb8-18ad" hidden="false">
+          <description>Este tanque es excepcionalmente veloz. Usa la categoría de MBT Rápido de la Tabla de Movimiento.</description>
+        </rule>
+        <rule name="Termal" id="04bb-71d3-fc19-4e7c" hidden="false">
+          <description>Una unidad que use la Regla Especial Termal ignora el -1 de disparar a unidades dentro de terreno o donde la LOS es de 50% oculta por terreno, humo u otros obstáculos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M60" hidden="false" id="2d73-f13f-242f-4014">
+      <categoryLinks>
+        <categoryLink targetId="715d-e13c-5e1c-2148" id="101d-c309-d5a8-0619" primary="true" name="MBTs"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="32"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="M60" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="3134-c4b8-4e8d-4312">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">MBT</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M60</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">14</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">12</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">10</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">6</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M60A3" hidden="false" id="3b4b-8ace-3866-2744">
+      <categoryLinks>
+        <categoryLink targetId="715d-e13c-5e1c-2148" id="3aaa-60b5-8c1b-1ea0" primary="true" name="MBTs"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="46"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="6"/>
+      </costs>
+      <profiles>
+        <profile name="M60A3" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="c3ac-f473-9cac-1b58">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">MBT</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M60A3</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">14</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">12</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">10</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">6</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="UH-60 Black Hawk" hidden="false" id="5a9b-b6fe-449e-c208">
+      <categoryLinks>
+        <categoryLink targetId="2ab5-8fab-71e5-5d15" id="110e-3ca8-391f-c7f7" primary="true" name="Helicopteros"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="30"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="6"/>
+      </costs>
+      <profiles>
+        <profile name="UH-60 Black Hawk" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="d47b-de3f-84bf-99f7">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Trans. Helo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">UH-60 Black Hawk</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">n/a</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">n/a</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">n/a</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="APC" id="b015-5e07-ae0e-f4c3" hidden="false">
+          <description>Un APC puede transportar a una infantería o a una unidad de apoyo. Cuando elijas las fuerzas para un escenario puedes elegir un APC si tienes una unidad de infantería o apoyo para transportar.
+
+
+Por ejemplo, puedes comprar un APC sovietico BMP1 y también una unidad de infantería para tranportarla, dando un valor total de 47 (14+33). No puedes comprar un APC sin comprar una unidad parar transportarla. Los APCs no generan fichas de Mando parar la Reserva de Fichas de Mando del Grupo de Batalla.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="LAv-AT" hidden="false" id="aa61-c194-ec9a-659d">
+      <profiles>
+        <profile name="LAv-AT" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="e819-5b7d-5284-f33a">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">LAv-AT</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="14dc-b2ea-d24a-4f79" id="aa02-41c7-4304-6e7a" primary="true" name="Vehiculos ATGM"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Tirador Oculto" id="000e-2d53-a088-6ea6" hidden="false">
+          <description>Cualquier unidad reaccionando a un disparo ATGM de un vehículo con esta regla debe restar -1 a su tirada de reacción.</description>
+        </rule>
+        <rule name="ATV" id="fede-bdb2-5aa1-7bac" hidden="false">
+          <description>Este vehículo de ruedas esta especialmente preparado para ir campo a través. Este vehículo usa el valor ATV cuando haga un chequeo de terreno.</description>
+        </rule>
+        <rule name="Termal" id="6931-4eac-70d1-ef9d" hidden="false">
+          <description>Una unidad que use la Regla Especial Termal ignora el -1 de disparar a unidades dentro de terreno o donde la LOS es de 50% oculta por terreno, humo u otros obstáculos.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="53"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="M901" hidden="false" id="f4de-0129-f385-6005">
+      <profiles>
+        <profile name="M901" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="33e8-926d-b965-6d56">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M901</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Vehiculos ATGM" hidden="false" id="499b-408c-25ce-a93f" targetId="14dc-b2ea-d24a-4f79" primary="true"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Tirador Oculto" id="5bb4-1793-ce56-2580" hidden="false">
+          <description>Cualquier unidad reaccionando a un disparo ATGM de un vehículo con esta regla debe restar -1 a su tirada de reacción.</description>
+        </rule>
+        <rule name="Termal" id="9cb8-0c6f-a804-e6ec" hidden="false">
+          <description>Una unidad que use la Regla Especial Termal ignora el -1 de disparar a unidades dentro de terreno o donde la LOS es de 50% oculta por terreno, humo u otros obstáculos.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="50"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="HMMW v-TOW" hidden="false" id="24c6-f4bd-7ea3-9ec1">
+      <profiles>
+        <profile name="HMMW v-TOW" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="4c4d-28f0-aadf-27f1">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">HMMW v-TOW</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">8</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="14dc-b2ea-d24a-4f79" id="c798-685c-cc07-932c" primary="true" name="Vehiculos ATGM"/>
+      </categoryLinks>
+      <rules>
+        <rule name="ATV" id="e867-e502-af84-2bde" hidden="false">
+          <description>Este vehículo de ruedas esta especialmente preparado para ir campo a través. Este vehículo usa el valor ATV cuando haga un chequeo de terreno.</description>
+        </rule>
+        <rule name="Termal" id="ba8d-c138-5cb9-9cb1" hidden="false">
+          <description>Una unidad que use la Regla Especial Termal ignora el -1 de disparar a unidades dentro de terreno o donde la LOS es de 50% oculta por terreno, humo u otros obstáculos.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="40"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Sgto. York" hidden="false" id="9113-e19b-8bef-49f4">
+      <categoryLinks>
+        <categoryLink targetId="4062-e5fb-5bf5-98b9" id="7f85-3316-622d-b091" primary="true" name="Vehiculos AA"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="28"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Sgto. York" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="3ad8-4c60-9079-6feb">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Sgto. York</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">13</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">11</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">4a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Auto cañones de fuego rápido" id="d731-1ecc-62a1-f30f" hidden="false">
+          <description>Las armas de fuego rápido como los 25mm Bushmaster del M2 Bradley y el cañon 30mm de un BMP2 tienen un valor de arma “a”. Por ejemplo 4a o 6a. Cuando disparen tira dos dados y escoge la tirada más alta.</description>
+        </rule>
+        <rule name="AA Cañón (6+)" id="656d-34a0-e8eb-19ba" hidden="false">
+          <description>Esta unidad está armada con cañones de tiro rápido AA y pueden reaccionar contra helicópteros. Las armas AAG antiguas tienen en los ORBATs anotados que impactan a 7+, como los ZSU57.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="MIM-72 Chaparral" hidden="false" id="6462-33ea-8720-3a74">
+      <categoryLinks>
+        <categoryLink targetId="4062-e5fb-5bf5-98b9" id="b0ec-2305-630f-7f55" primary="true" name="Vehiculos AA"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="35"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="MIM-72 Chaparral" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="1f4f-b40b-3762-352d">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">MIM-72 Chaparral</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="SAM" id="be5d-1dc0-8ebb-e312" hidden="false">
+          <description>Esta unidad está armada con misiles tierra-aire y puede reaccionar a ataque de helicópteros enemigos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="HMMWv-SAM" hidden="false" id="d24d-94a4-23df-35a6">
+      <categoryLinks>
+        <categoryLink targetId="4062-e5fb-5bf5-98b9" id="cef8-5350-5c0a-1ba7" primary="true" name="Vehiculos AA"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="18"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="HMMWv-SAM" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="a619-681c-ae7a-73d2">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">HMMWv-SAM</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">8</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="MANPAD" id="91a2-fda8-35e7-57b3" hidden="false">
+          <description>Las unidades con MANPAD (armas portátiles AA) pueden reaccionar a ataques de helicópteros enemigos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M163" hidden="false" id="2101-0f7a-8d77-4317">
+      <categoryLinks>
+        <categoryLink targetId="4062-e5fb-5bf5-98b9" id="8241-c623-5b10-3041" primary="true" name="Vehiculos AA"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="23"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="M163" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="2749-2643-0d9b-f505">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M163</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">4a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="AA Cañón (6+)" id="e463-1380-9869-601b" hidden="false">
+          <description>Esta unidad está armada con cañones de tiro rápido AA y pueden reaccionar contra helicópteros. Las armas AAG antiguas tienen en los ORBATs anotados que impactan a 7+, como los ZSU57.</description>
+        </rule>
+        <rule name="Auto cañones de fuego rápido" id="8956-dccd-c64c-473b" hidden="false">
+          <description>Las armas de fuego rápido como los 25mm Bushmaster del M2 Bradley y el cañon 30mm de un BMP2 tienen un valor de arma “a”. Por ejemplo 4a o 6a. Cuando disparen tira dos dados y escoge la tirada más alta.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M551 Sheridan" hidden="false" id="7459-9ab1-62aa-0481">
+      <categoryLinks>
+        <categoryLink targetId="52bb-623f-4915-085f" id="cc9f-95c1-efd9-96d4" primary="true" name="Vehiculos Recce"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="35"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="M551 Sheridan" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="9274-9802-4dfe-f085">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M551 Sheridan</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">13</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">11</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">10h</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">5</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Recce" id="5508-3dc6-1748-b258" hidden="false">
+          <description>Una unidad exploradora/reconocimiento siempre reacciona a 3+ en cualquier situación y solo le afectan los marcadores de Moral NO las Fichas de Mando.
+Además si una unidad enemiga se activa dentro de la LOS de una unidad amiga de un vehiculo de exploración/reconocimiento CUALQUIER unidad amiga puede reaccionar incluso si no tiene LOS con la unidad que se activa. Esto representa a las unidades de exploración/reconocimiento informando de actividad enemiga. 
+Las unidades de exploración/reconocimiento pueden usar las cartas de ventaja táctica.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M113 FIST" hidden="false" id="1fdd-6efa-826a-25e8" page="">
+      <categoryLinks>
+        <categoryLink targetId="52bb-623f-4915-085f" id="04ad-449d-170a-7694" primary="true" name="Vehiculos Recce"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="25"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="M113 FIST" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="52ed-0735-debc-e7ca">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M113 FIST</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">0</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Recce" id="34ea-8263-a29a-d211" hidden="false">
+          <description>Una unidad exploradora/reconocimiento siempre reacciona a 3+ en cualquier situación y solo le afectan los marcadores de Moral NO las Fichas de Mando.
+Además si una unidad enemiga se activa dentro de la LOS de una unidad amiga de un vehiculo de exploración/reconocimiento CUALQUIER unidad amiga puede reaccionar incluso si no tiene LOS con la unidad que se activa. Esto representa a las unidades de exploración/reconocimiento informando de actividad enemiga. 
+Las unidades de exploración/reconocimiento pueden usar las cartas de ventaja táctica.</description>
+        </rule>
+        <rule name="Termal" id="52a2-92ca-5a72-e6d3" hidden="false">
+          <description>Una unidad que use la Regla Especial Termal ignora el -1 de disparar a unidades dentro de terreno o donde la LOS es de 50% oculta por terreno, humo u otros obstáculos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M3 CFV" hidden="false" id="9990-1f2c-3b39-5e5c">
+      <categoryLinks>
+        <categoryLink targetId="52bb-623f-4915-085f" id="b942-9797-bcec-2ad0" primary="true" name="Vehiculos Recce"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="45"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="5"/>
+      </costs>
+      <profiles>
+        <profile name="M3 CFV" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="d3d4-2eb1-923d-7958">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M3 CFV</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">13</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">11</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">4a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Auto cañones de fuego rápido" id="a4ed-7c42-4dc4-c70d" hidden="false">
+          <description>Las armas de fuego rápido como los 25mm Bushmaster del M2 Bradley y el cañon 30mm de un BMP2 tienen un valor de arma “a”. Por ejemplo 4a o 6a. Cuando disparen tira dos dados y escoge la tirada más alta.</description>
+        </rule>
+        <rule name="Recce" id="7c0c-9ed4-d062-0dc8" hidden="false">
+          <description>Una unidad exploradora/reconocimiento siempre reacciona a 3+ en cualquier situación y solo le afectan los marcadores de Moral NO las Fichas de Mando.
+Además si una unidad enemiga se activa dentro de la LOS de una unidad amiga de un vehiculo de exploración/reconocimiento CUALQUIER unidad amiga puede reaccionar incluso si no tiene LOS con la unidad que se activa. Esto representa a las unidades de exploración/reconocimiento informando de actividad enemiga. 
+Las unidades de exploración/reconocimiento pueden usar las cartas de ventaja táctica.</description>
+        </rule>
+        <rule name="Termal" id="a76a-c876-eceb-de2e" hidden="false">
+          <description>Una unidad que use la Regla Especial Termal ignora el -1 de disparar a unidades dentro de terreno o donde la LOS es de 50% oculta por terreno, humo u otros obstáculos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="HMMWv" hidden="false" id="ced5-97b2-ea1a-8e2a">
+      <categoryLinks>
+        <categoryLink targetId="52bb-623f-4915-085f" id="5d65-19ad-fa7d-9ca7" primary="true" name="Vehiculos Recce"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="15"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="5"/>
+      </costs>
+      <profiles>
+        <profile name="HMMWv" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="c853-2f95-bf21-fe06">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">HMMWv</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">8</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">0</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Recce" id="2831-04b2-a68e-ad8f" hidden="false">
+          <description>Una unidad exploradora/reconocimiento siempre reacciona a 3+ en cualquier situación y solo le afectan los marcadores de Moral NO las Fichas de Mando.
+Además si una unidad enemiga se activa dentro de la LOS de una unidad amiga de un vehiculo de exploración/reconocimiento CUALQUIER unidad amiga puede reaccionar incluso si no tiene LOS con la unidad que se activa. Esto representa a las unidades de exploración/reconocimiento informando de actividad enemiga. 
+Las unidades de exploración/reconocimiento pueden usar las cartas de ventaja táctica.</description>
+        </rule>
+        <rule name="ATV" id="ebc7-5ab0-9d94-eefc" hidden="false">
+          <description>Este vehículo de ruedas esta especialmente preparado para ir campo a través. Este vehículo usa el valor ATV cuando haga un chequeo de terreno.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="LAv-M" hidden="false" id="7866-cba5-dfc6-434a">
+      <categoryLinks>
+        <categoryLink targetId="c663-3c11-19be-5cfa" id="1444-9717-abc2-44af" primary="true" name="Vehiculos Porta Morteros"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="18"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="LAv-M" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="3f44-4b28-0fed-9491">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">LAv-M</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">8+m</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">0</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="ATV" id="17c1-7a11-f53f-e9fa" hidden="false">
+          <description>Este vehículo de ruedas esta especialmente preparado para ir campo a través. Este vehículo usa el valor ATV cuando haga un chequeo de terreno.</description>
+        </rule>
+        <rule name="Mortero" id="10f9-2ee9-b0a2-25bb" hidden="false">
+          <description>puedan ver ellos o cualquier unidad amiga si el objetivo está a más de 12”. Los morteros ignoran los modificadores de cobertura de las unidades enemigas, excepto si están completamente dentro de un bunker o trincheras.Un impacto infringe un marcador de moral, y subsiguientes impactos en la misma activación contra una unidad de infantería infringen además de este marcador de moral un marcador de moral adicional, como es habitual. Cuentan como valor antiblindaje de 0 y dividen en 2 1d210 cuando tiren para perforar el blindaje, por lo que solo son efectivos contra vehículos muy ligeros. Cuando dispares un mortero marca el punto centrado en una unidad con un marcador o ficha. El disparo inicial irá a 8+ para impactar, tal y como marca el valor indicado en Para Impactar de 8+m en los ORBATs. Siguientes intentos dentro del mismo turno contra el mismo objetivo suman un +1 acumulativo por cada intento, mientras el objetivo esté en la misma posición. Esto es marcado por 3” del marcador. Esto hace que el jugador no pueda mover mínimamente la unidad para decir que ya no es el mismo objetivo. (Deberá salir por tanto totalmente de ese radio de 3”). Los morteros no pueden dispararse desde dentro de un bosque o edificios.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="M106" hidden="false" id="5d15-404b-511c-609d">
+      <categoryLinks>
+        <categoryLink targetId="c663-3c11-19be-5cfa" id="0fc9-48c4-98db-099b" primary="true" name="Vehiculos Porta Morteros"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="18"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="LM106" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="707d-76a7-1306-7335">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">LAv-M</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">8+m</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">0</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Mortero" id="ab26-7ff9-b82a-676a" hidden="false">
+          <description>puedan ver ellos o cualquier unidad amiga si el objetivo está a más de 12”. Los morteros ignoran los modificadores de cobertura de las unidades enemigas, excepto si están completamente dentro de un bunker o trincheras.Un impacto infringe un marcador de moral, y subsiguientes impactos en la misma activación contra una unidad de infantería infringen además de este marcador de moral un marcador de moral adicional, como es habitual. Cuentan como valor antiblindaje de 0 y dividen en 2 1d210 cuando tiren para perforar el blindaje, por lo que solo son efectivos contra vehículos muy ligeros. Cuando dispares un mortero marca el punto centrado en una unidad con un marcador o ficha. El disparo inicial irá a 8+ para impactar, tal y como marca el valor indicado en Para Impactar de 8+m en los ORBATs. Siguientes intentos dentro del mismo turno contra el mismo objetivo suman un +1 acumulativo por cada intento, mientras el objetivo esté en la misma posición. Esto es marcado por 3” del marcador. Esto hace que el jugador no pueda mover mínimamente la unidad para decir que ya no es el mismo objetivo. (Deberá salir por tanto totalmente de ese radio de 3”). Los morteros no pueden dispararse desde dentro de un bosque o edificios.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M113" hidden="false" id="600b-17e6-b93d-157e">
+      <categoryLinks>
+        <categoryLink targetId="27c6-5016-d9a1-d2b5" id="4ce1-ce7d-a5a9-497a" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="7"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="M113" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="9449-a074-7e1f-bf10">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M2 Bradley</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">0</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="APC" id="c166-12ab-b174-84d6" hidden="false">
+          <description>Un APC puede transportar a una infantería o a una unidad de apoyo. Cuando elijas las fuerzas para un escenario puedes elegir un APC si tienes una unidad de infantería o apoyo para transportar.
+
+
+Por ejemplo, puedes comprar un APC sovietico BMP1 y también una unidad de infantería para tranportarla, dando un valor total de 47 (14+33). No puedes comprar un APC sin comprar una unidad parar transportarla. Los APCs no generan fichas de Mando parar la Reserva de Fichas de Mando del Grupo de Batalla.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M2 Bradley" hidden="false" id="5996-1c0e-0f9a-6246">
+      <categoryLinks>
+        <categoryLink targetId="27c6-5016-d9a1-d2b5" id="06c3-ec66-aad0-5da4" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="14"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="M2 Bradley" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="96b4-8d89-3fe3-102e">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M2 Bradley</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">13</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">11</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">4a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="APC" id="cda7-de84-567e-30bf" hidden="false">
+          <description>Un APC puede transportar a una infantería o a una unidad de apoyo. Cuando elijas las fuerzas para un escenario puedes elegir un APC si tienes una unidad de infantería o apoyo para transportar.
+
+
+Por ejemplo, puedes comprar un APC sovietico BMP1 y también una unidad de infantería para tranportarla, dando un valor total de 47 (14+33). No puedes comprar un APC sin comprar una unidad parar transportarla. Los APCs no generan fichas de Mando parar la Reserva de Fichas de Mando del Grupo de Batalla.</description>
+        </rule>
+        <rule name="Termal" id="89eb-cf99-a017-b739" hidden="false">
+          <description>Una unidad que use la Regla Especial Termal ignora el -1 de disparar a unidades dentro de terreno o donde la LOS es de 50% oculta por terreno, humo u otros obstáculos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="HMMWv" hidden="false" id="8613-4dcb-1065-99d0">
+      <categoryLinks>
+        <categoryLink targetId="27c6-5016-d9a1-d2b5" id="99d5-07a3-749f-60a6" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="5"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="HMMWv" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="3c95-0752-7182-d618">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">HMMWv</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">8</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">0</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="APC-" id="eaf0-dad0-86b2-44ca" hidden="false">
+          <description>Un APC puede transportar a una infantería o a una unidad de apoyo. Cuando elijas las fuerzas para un escenario puedes elegir un APC si tienes una unidad de infantería o apoyo para transportar.
+
+
+Por ejemplo, puedes comprar un APC sovietico BMP1 y también una unidad de infantería para tranportarla, dando un valor total de 47 (14+33). No puedes comprar un APC sin comprar una unidad parar transportarla. Los APCs no generan fichas de Mando parar la Reserva de Fichas de Mando del Grupo de Batalla.</description>
+        </rule>
+        <rule name="ATV" id="8d4f-ed61-7483-be82" hidden="false">
+          <description>Este vehículo de ruedas esta especialmente preparado para ir campo a través. Este vehículo usa el valor ATV cuando haga un chequeo de terreno.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Camion" hidden="false" id="d8c6-2e52-3595-8ce8">
+      <categoryLinks>
+        <categoryLink targetId="27c6-5016-d9a1-d2b5" id="bdd1-b6c5-5644-e094" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="4"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Camion" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="124e-5f3b-f8e3-3bc7">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Camion</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">6</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">6</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="APC+" id="3a14-ffaa-4395-09eb" hidden="false">
+          <description>Un APC puede transportar a una infantería o a una unidad de apoyo. Cuando elijas las fuerzas para un escenario puedes elegir un APC si tienes una unidad de infantería o apoyo para transportar.
+
+
+Por ejemplo, puedes comprar un APC sovietico BMP1 y también una unidad de infantería para tranportarla, dando un valor total de 47 (14+33). No puedes comprar un APC sin comprar una unidad parar transportarla. Los APCs no generan fichas de Mando parar la Reserva de Fichas de Mando del Grupo de Batalla.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Coche" hidden="false" id="3e75-2949-e72d-4239">
+      <categoryLinks>
+        <categoryLink targetId="27c6-5016-d9a1-d2b5" id="2c69-7e96-b62a-2491" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="4"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Coche" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="4c39-de44-c761-491e">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Coche</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">6</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">6</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="APC-" id="9b34-aa1a-c3ce-be58" hidden="false">
+          <description>Un APC puede transportar a una infantería o a una unidad de apoyo. Cuando elijas las fuerzas para un escenario puedes elegir un APC si tienes una unidad de infantería o apoyo para transportar.
+
+
+Por ejemplo, puedes comprar un APC sovietico BMP1 y también una unidad de infantería para tranportarla, dando un valor total de 47 (14+33). No puedes comprar un APC sin comprar una unidad parar transportarla. Los APCs no generan fichas de Mando parar la Reserva de Fichas de Mando del Grupo de Batalla.</description>
+        </rule>
+        <rule name="ATV" id="cb7d-a941-4a7d-d1cb" hidden="false">
+          <description>Este vehículo de ruedas esta especialmente preparado para ir campo a través. Este vehículo usa el valor ATV cuando haga un chequeo de terreno.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Infanteria Elite (Manpad+Law)" hidden="false" id="ccc0-ac03-f8e9-efde">
+      <categoryLinks>
+        <categoryLink targetId="8f12-e7c4-608b-4127" id="61e2-0332-f71c-48e5" primary="true" name="Infantería"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="37"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Infanteria Elite (Manpad+Law)" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="d3a4-333d-f23a-da68">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">INF</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Infanteria Elite (Manpad+Law)</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8i</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">5</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">n/a</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">n/a</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="LAW" id="cc01-d604-ef6a-d59a" hidden="false">
+          <description>Esto representa pequeñas armas portátiles de infantería como los antianque LAWs o RPGs. La infantería puede disparar a los vehículos con estas armas. Tienen un alcance de 12” y un valor de arma de 8. No se ven afectadas por el blindaje especial.</description>
+        </rule>
+        <rule name="MANPAD" id="a37c-a3ce-4d01-b92e" hidden="false">
+          <description>Las unidades con MANPAD (armas portátiles AA) pueden reaccionar a ataques de helicópteros enemigos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Infanteria Recluta (Law)" hidden="false" id="6acf-425e-5e55-5261">
+      <categoryLinks>
+        <categoryLink targetId="8f12-e7c4-608b-4127" id="da5a-3598-c1c2-9304" primary="true" name="Infantería"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="21"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Infanteria Recluta (Law)" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="2c59-a9bc-130d-a4af">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">INF</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Infanteria Recluta (Law)</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8i</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">6+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">5</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">n/a</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">n/a</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="LAW" id="e051-44d1-b1d2-72f0" hidden="false">
+          <description>Esto representa pequeñas armas portátiles de infantería como los antianque LAWs o RPGs. La infantería puede disparar a los vehículos con estas armas. Tienen un alcance de 12” y un valor de arma de 8. No se ven afectadas por el blindaje especial.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Infanteria (Law)" hidden="false" id="f310-1a3a-36d2-a045">
+      <categoryLinks>
+        <categoryLink targetId="8f12-e7c4-608b-4127" id="722b-5720-f5e4-4483" primary="true" name="Infantería"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="25"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Infanteria (Law)" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="aed1-001d-7fc5-ee19">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">INF</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Infanteria (Law)</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8i</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">5</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">n/a</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">n/a</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="LAW" id="c24d-ebc4-0dd0-da27" hidden="false">
+          <description>Esto representa pequeñas armas portátiles de infantería como los antianque LAWs o RPGs. La infantería puede disparar a los vehículos con estas armas. Tienen un alcance de 12” y un valor de arma de 8. No se ven afectadas por el blindaje especial.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Infanteria (Manpad+Law)" hidden="false" id="2506-b3ec-0a78-68aa">
+      <categoryLinks>
+        <categoryLink targetId="8f12-e7c4-608b-4127" id="3d18-3951-5e5a-7a13" primary="true" name="Infantería"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="33"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Infanteria (Manpad+Law)" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="40e0-a33d-5428-56a1">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">INF</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Infanteria (Manpad+Law)</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8i</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">5</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">n/a</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">n/a</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="LAW" id="42b3-2fcc-3198-1968" hidden="false">
+          <description>Esto representa pequeñas armas portátiles de infantería como los antianque LAWs o RPGs. La infantería puede disparar a los vehículos con estas armas. Tienen un alcance de 12” y un valor de arma de 8. No se ven afectadas por el blindaje especial.</description>
+        </rule>
+        <rule name="MANPAD" id="8a04-5735-f44e-1b70" hidden="false">
+          <description>Las unidades con MANPAD (armas portátiles AA) pueden reaccionar a ataques de helicópteros enemigos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Inf Recce" hidden="false" id="2f60-acd6-4ba6-888a">
+      <categoryLinks>
+        <categoryLink targetId="afe4-8cc1-9a1f-843a" id="9a9a-6001-1abc-1dd5" primary="true" name="Apoyos"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="27"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Inf. Recce" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="6180-2e64-60d0-873a">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Apoyo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Inf Recce</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8i</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="LAW" id="e7a4-d5d8-a949-59d2" hidden="false">
+          <description>Esto representa pequeñas armas portátiles de infantería como los antianque LAWs o RPGs. La infantería puede disparar a los vehículos con estas armas. Tienen un alcance de 12” y un valor de arma de 8. No se ven afectadas por el blindaje especial.</description>
+        </rule>
+        <rule name="Recce" id="4b84-74d9-9a76-835d" hidden="false">
+          <description>Una unidad exploradora/reconocimiento siempre reacciona a 3+ en cualquier situación y solo le afectan los marcadores de Moral NO las Fichas de Mando.
+Además si una unidad enemiga se activa dentro de la LOS de una unidad amiga de un vehiculo de exploración/reconocimiento CUALQUIER unidad amiga puede reaccionar incluso si no tiene LOS con la unidad que se activa. Esto representa a las unidades de exploración/reconocimiento informando de actividad enemiga. 
+Las unidades de exploración/reconocimiento pueden usar las cartas de ventaja táctica.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mortero" hidden="false" id="347f-9cc8-3cb1-8ab6">
+      <categoryLinks>
+        <categoryLink targetId="afe4-8cc1-9a1f-843a" id="ce3b-25ad-3220-c303" primary="true" name="Apoyos"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="29"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Mortero" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="36fe-97ef-ce0c-6cd2">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Apoyo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Mortero</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">8+m</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="MANPAD" hidden="false" id="ab42-fff0-0317-304d">
+      <categoryLinks>
+        <categoryLink targetId="afe4-8cc1-9a1f-843a" id="bb40-49f4-42e3-dbce" primary="true" name="Apoyos"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="10"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="MANPAD" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="6d9f-676e-3bd3-37c9">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Apoyo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">MANPAD</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="MANPAD" id="5d4b-d0b6-1c05-b458" hidden="false">
+          <description>Las unidades con MANPAD (armas portátiles AA) pueden reaccionar a ataques de helicópteros enemigos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Equipo Dragón" hidden="false" id="5a56-1c76-7dfe-9e58">
+      <categoryLinks>
+        <categoryLink targetId="afe4-8cc1-9a1f-843a" id="232c-87a4-d699-d545" primary="true" name="Apoyos"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="20"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Equipo Dragón" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="db76-725c-9990-bd18">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Apoyo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Equipo Dragón</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">4+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">9h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M1A1" hidden="false" id="c188-ead3-63d6-7271">
+      <categoryLinks>
+        <categoryLink targetId="715d-e13c-5e1c-2148" id="25ef-ea8f-7423-fad3" primary="true" name="MBTs"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="90"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="11"/>
+      </costs>
+      <profiles>
+        <profile name="M1A1" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="2ddf-c085-d4c0-6dac">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">MBT</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M1A1</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">19s</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">17s</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">11</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">6</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Blindaje Especial" id="f0c2-97b3-e097-78f7" hidden="false" page="">
+          <description>Si un arma con valor de arma “h” impacta a un blindaje con valor “s” tira 2d10 y elige el valor inferior.</description>
+        </rule>
+        <rule name="Rápido" id="1064-eea7-6268-9ab5" hidden="false">
+          <description>Este tanque es excepcionalmente veloz. Usa la categoría de MBT Rápido de la Tabla de Movimiento.</description>
+        </rule>
+        <rule name="Termal" id="4f37-47ae-d3df-e17f" hidden="false">
+          <description>Una unidad que use la Regla Especial Termal ignora el -1 de disparar a unidades dentro de terreno o donde la LOS es de 50% oculta por terreno, humo u otros obstáculos.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </selectionEntries>
+  <forceEntries>
+    <forceEntry name="Ejercito de Tierra USA" id="ef3e-0c22-594d-ddfa" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Helicopteros" hidden="false" id="c3a5-5ba1-fb57-acc3" targetId="2ab5-8fab-71e5-5d15"/>
+        <categoryLink name="MBTs" hidden="false" id="5549-cd56-e3e2-160c" targetId="715d-e13c-5e1c-2148"/>
+        <categoryLink name="Vehiculos ATGM" hidden="false" id="036e-6c89-c8d0-b932" targetId="14dc-b2ea-d24a-4f79"/>
+        <categoryLink name="Vehiculos AA" hidden="false" id="3867-c693-73df-e7c3" targetId="4062-e5fb-5bf5-98b9"/>
+        <categoryLink name="Vehiculos Recce" hidden="false" id="8585-c261-4fce-b462" targetId="52bb-623f-4915-085f"/>
+        <categoryLink name="Vehiculos Porta Morteros" hidden="false" id="35a4-0927-15f1-c45d" targetId="c663-3c11-19be-5cfa"/>
+        <categoryLink name="Vehiculos APC" hidden="false" id="8b8f-b4ec-2d6e-1511" targetId="27c6-5016-d9a1-d2b5"/>
+        <categoryLink name="Infantería" hidden="false" id="69bc-4858-c120-5ed5" targetId="8f12-e7c4-608b-4127"/>
+        <categoryLink name="Apoyos" hidden="false" id="6905-5d55-f51a-cb9d" targetId="afe4-8cc1-9a1f-843a"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <categoryEntries>
+    <categoryEntry name="Helicopteros" id="2ab5-8fab-71e5-5d15" hidden="false"/>
+    <categoryEntry name="MBTs" id="715d-e13c-5e1c-2148" hidden="false"/>
+    <categoryEntry name="Vehiculos ATGM" id="14dc-b2ea-d24a-4f79" hidden="false"/>
+    <categoryEntry name="Vehiculos AA" id="4062-e5fb-5bf5-98b9" hidden="false"/>
+    <categoryEntry name="Vehiculos Recce" id="52bb-623f-4915-085f" hidden="false"/>
+    <categoryEntry name="Vehiculos Porta Morteros" id="c663-3c11-19be-5cfa" hidden="false"/>
+    <categoryEntry name="Vehiculos APC" id="27c6-5016-d9a1-d2b5" hidden="false"/>
+    <categoryEntry name="Infantería" id="8f12-e7c4-608b-4127" hidden="false"/>
+    <categoryEntry name="Apoyos" id="afe4-8cc1-9a1f-843a" hidden="false"/>
+  </categoryEntries>
+</catalogue>

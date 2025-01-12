@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="b8f1-0625-4c42-1e05" name="RFA" gameSystemId="sys-8421-eea8-956c-bce3" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Apoyos" id="1506-9048-87f6-dad1" hidden="false"/>
+    <categoryEntry name="Helicopteros" id="9f03-19f8-23d4-f4e1" hidden="false"/>
+    <categoryEntry name="Infantería" id="5724-65a6-33b5-3a54" hidden="false"/>
+    <categoryEntry name="MBTs" id="8a23-2059-75e2-9ece" hidden="false"/>
+    <categoryEntry name="Vehiculos AA" id="c426-7fcc-343f-031b" hidden="false"/>
+    <categoryEntry name="Vehiculos APC" id="a4c3-4978-cecf-1854" hidden="false"/>
+    <categoryEntry name="Vehiculos ATGM" id="6b3a-c302-a4c8-93c3" hidden="false"/>
+    <categoryEntry name="Vehiculos Ligeros" id="1704-101b-f2d6-f920" hidden="false"/>
+    <categoryEntry name="Vehiculos Porta Morteros" id="f2de-2138-725f-274f" hidden="false"/>
+    <categoryEntry name="Vehiculos Recce" id="2de6-1e81-a22a-40f2" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry name="RFA" id="500e-4247-2a03-d37a" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Apoyos" hidden="false" id="4ddb-2344-8885-baee" targetId="1506-9048-87f6-dad1" type="category"/>
+        <categoryLink name="Helicopteros" hidden="false" id="0b66-d7ce-2035-65c8" targetId="9f03-19f8-23d4-f4e1" type="category"/>
+        <categoryLink name="Infantería" hidden="false" id="4c6f-d0d4-45f4-d275" targetId="5724-65a6-33b5-3a54" type="category"/>
+        <categoryLink name="MBTs" hidden="false" id="c170-3df3-622c-15f7" targetId="8a23-2059-75e2-9ece" type="category"/>
+        <categoryLink name="Vehiculos AA" hidden="false" id="9f14-34e3-fc2b-0702" targetId="c426-7fcc-343f-031b" type="category"/>
+        <categoryLink name="Vehiculos APC" hidden="false" id="f9bb-40e2-2009-5dc6" targetId="a4c3-4978-cecf-1854" type="category"/>
+        <categoryLink name="Vehiculos ATGM" hidden="false" id="61aa-caa6-f6b0-ea09" targetId="6b3a-c302-a4c8-93c3" type="category"/>
+        <categoryLink name="Vehiculos Ligeros" hidden="false" id="dc63-93cd-42e6-bf01" targetId="1704-101b-f2d6-f920" type="category"/>
+        <categoryLink name="Vehiculos Porta Morteros" hidden="false" id="f643-a724-ea77-4dad" targetId="f2de-2138-725f-274f" type="category"/>
+        <categoryLink name="Vehiculos Recce" hidden="false" id="829f-5015-f00e-11e4" targetId="2de6-1e81-a22a-40f2" type="category"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry type="unit" import="false" name="UH-1D" hidden="false" id="3de7-2c20-e401-d6e4">
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="30"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="6"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9f03-19f8-23d4-f4e1" id="33fe-2d5f-e07f-3436" primary="true" name="Helicopteros"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="UH-1D" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="450f-6de8-fc45-aeb7">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Trans. Hel</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">UH-1D</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">n/a</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="APC" id="8865-7be6-ef0d-9968" hidden="false" type="rule" targetId="9f32-943e-40a2-34d6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="B0105" hidden="false" id="726a-d406-be55-df3d">
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="90"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="11"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9f03-19f8-23d4-f4e1" id="e63c-d0c7-b0c0-7c28" primary="true" name="Helicopteros"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="B0105" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="ec9f-0f30-3afb-7488">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Atk. Hel</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">B0105</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">2</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">n/a</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">4+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">10h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Cohetes" id="08ff-d1fc-394e-0279" hidden="false" type="rule" targetId="5760-d5b8-0baa-ea79"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="CH53G" hidden="false" id="f606-acfd-c6b7-6a2a">
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="35"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="6"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9f03-19f8-23d4-f4e1" id="1db9-0a76-1ed7-8abd" primary="true" name="Helicopteros"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="CH53G" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="be73-5ea5-c7ee-1a94">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Trans. Hel</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">CH53G</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">n/a</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="APC+" id="115b-75b0-e2c2-3379" hidden="false" type="rule" targetId="4e4b-c716-e957-280b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Leopard 2" hidden="false" id="c8e8-cbbd-79a0-99fe">
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="85"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="11"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="8a23-2059-75e2-9ece" id="89b6-4313-3516-f40c" primary="true" name="MBTs"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Leopard 2" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="dad6-8bd5-9b3b-d939">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">MBT</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Leopard 2</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">18s</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">16s</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">11</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">6</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blindaje Especial" id="009e-3dce-9a79-1438" hidden="false" type="rule" targetId="3a49-2d52-44ec-ea42"/>
+        <infoLink name="Rápido" id="8508-f433-2f3e-0a60" hidden="false" type="rule" targetId="4d54-4b38-db0f-e74c"/>
+        <infoLink name="Termal" id="3e02-0658-a426-9346" hidden="false" type="rule" targetId="ef01-d484-2d57-bc6f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M48A2G2" hidden="false" id="14fc-24f1-95b1-5e3b">
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="46"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="6"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="8a23-2059-75e2-9ece" id="59e3-d75f-fb59-8378" primary="true" name="MBTs"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M48A2G2" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="f528-6dd8-40af-9c90">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">MBT</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M48A2G2</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">14</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">12</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">10</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">6</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Leopard 1A5" hidden="false" id="69a1-0829-6ae4-ec23">
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="60"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="8"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="8a23-2059-75e2-9ece" id="fd2b-f5e7-ba92-9b7d" primary="true" name="MBTs"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Leopard 1A5" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="bc22-03f7-6e8a-335f">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">MBT</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Leopard 1A5</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">15s</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">13s</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">10</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">6</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blindaje Especial" id="d94c-bf62-4074-ee09" hidden="false" type="rule" targetId="3a49-2d52-44ec-ea42"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Leopard A1" hidden="false" id="1b68-2b0b-e5bb-5f6c">
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="45"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="6"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="8a23-2059-75e2-9ece" id="4ed5-3ec6-3149-2551" primary="true" name="MBTs"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Leopard A1" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="40c6-abc0-4ffb-383e">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">MBT</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Leopard A1</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">13</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">11</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">10</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">6</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Jgpz Kanone" hidden="false" id="f8a9-1b24-a83f-db0b">
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="23"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="1704-101b-f2d6-f920" id="1644-459f-86da-acb9" primary="true" name="Vehiculos Ligeros"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Jgpz Kanone" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="206c-d270-c55c-8ccb">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Jgpz Kanone</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">12</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">10</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">5</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fijo Frontal" id="9d74-ea1c-7890-d5d9" hidden="false" type="rule" targetId="3d2c-1fc9-b06a-f44c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Wiesel HOT" hidden="false" id="40ef-e0af-2185-8699">
+      <categoryLinks>
+        <categoryLink targetId="6b3a-c302-a4c8-93c3" id="d959-f451-966a-59ce" primary="true" name="Vehiculos ATGM"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="26"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Wiesel HOT" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="44a0-a5d4-4da9-e5e7">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Wiesel HOT</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">4+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">10h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Jaguar 1" hidden="false" id="2ca8-9364-ae2c-7ff5">
+      <categoryLinks>
+        <categoryLink targetId="6b3a-c302-a4c8-93c3" id="2e33-4c59-0fca-f81b" primary="true" name="Vehiculos ATGM"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="29"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Jaguar 1" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="63c0-e1a1-71fc-df07">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Jaguar 1</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">12</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">10</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">4+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">10h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Jaguar 2" hidden="false" id="9fa5-6259-6ba6-2fb3">
+      <categoryLinks>
+        <categoryLink targetId="6b3a-c302-a4c8-93c3" id="22e5-5dca-e4eb-58f1" primary="true" name="Vehiculos ATGM"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="57"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="7"/>
+      </costs>
+      <profiles>
+        <profile name="Jaguar 2" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="45a5-d7de-ae1d-9451">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Jaguar 2</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">13</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">11</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">12h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Termal" id="1bee-1f84-401c-7af6" hidden="false" type="rule" targetId="ef01-d484-2d57-bc6f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Roland" hidden="false" id="8b39-0ea9-16a8-23e6">
+      <categoryLinks>
+        <categoryLink targetId="c426-7fcc-343f-031b" id="f8c4-132c-df6b-7ffb" primary="true" name="Vehiculos AA"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="35"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Roland" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="8e91-70ad-160e-da1d">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Roland</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="SAM" id="4b18-5f6b-847b-0474" hidden="false" type="rule" targetId="c1cd-452a-5f50-0f91"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Gepard" hidden="false" id="a8d5-7030-bbfd-e4b9">
+      <categoryLinks>
+        <categoryLink targetId="c426-7fcc-343f-031b" id="bf68-0e11-5593-6e72" primary="true" name="Vehiculos AA"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="22"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Gepard" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="22f0-9eda-a9c5-cb07">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Gepard</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">13</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">11</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">5a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="AA Cañón (6+)" id="cd60-a874-38b6-fed6" hidden="false" type="rule" targetId="72e6-a584-2958-d1a5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Luchs" hidden="false" id="9772-b8db-d2b3-659e">
+      <categoryLinks>
+        <categoryLink targetId="2de6-1e81-a22a-40f2" id="bce5-6a37-2e43-6a10" primary="true" name="Vehiculos Recce"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="18"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Luchs" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="eb33-36a7-6ae7-2620">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Luchs</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">3a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="ATV" id="4340-e54b-a3a7-492f" hidden="false" type="rule" targetId="e747-0e5f-ac7e-ba47"/>
+        <infoLink name="Recce" id="50b9-1283-8993-a7f9" hidden="false" type="rule" targetId="f708-fee3-9a99-17b0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="M113 Panzer Moerser" hidden="false" id="4d80-3825-849d-090d">
+      <categoryLinks>
+        <categoryLink targetId="f2de-2138-725f-274f" id="75a0-9b40-2c4d-0cd7" primary="true" name="Vehiculos Porta Morteros"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="18"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="M113 Panzer Moerser" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="1335-5cf4-897c-4664">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M113 Panzer Moerser</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">8+m</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Mortero" id="4f24-9939-0a66-ec3b" hidden="false" type="rule" targetId="8e81-0a7c-cfd8-d85c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Camion" hidden="false" id="2c32-af53-5268-8eec">
+      <categoryLinks>
+        <categoryLink targetId="a4c3-4978-cecf-1854" id="ebee-fe69-930a-0b26" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="4"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Camion" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="8f11-8c55-d5fc-2cd8">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Camion</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">6</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">6</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="APC+" id="c466-4c03-33fa-da13" hidden="false" type="rule" targetId="4e4b-c716-e957-280b"/>
+        <infoLink name="ATV" id="b926-933e-b19e-03fa" hidden="false" type="rule" targetId="e747-0e5f-ac7e-ba47"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="M113G" hidden="false" id="ab7e-0739-eaf0-ef6e">
+      <categoryLinks>
+        <categoryLink targetId="a4c3-4978-cecf-1854" id="d1a3-79b2-bb6a-78d6" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="7"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="M113G" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="c33e-3d95-fca3-cae0">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">M113G</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">0</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="APC" id="5ad3-e9fe-fd5f-f003" hidden="false" type="rule" targetId="9f32-943e-40a2-34d6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Marder" hidden="false" id="a521-2a2c-f194-dfe4">
+      <categoryLinks>
+        <categoryLink targetId="a4c3-4978-cecf-1854" id="ceba-dda1-1301-e9da" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="25"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Marder" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="a511-fc22-8aa4-ede6">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Marder</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">12</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">9</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">4a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">11h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="APC" id="5ed9-78df-f3bc-c644" hidden="false" type="rule" targetId="9f32-943e-40a2-34d6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Fuch" hidden="false" id="2eba-d268-2e1a-bd8a">
+      <categoryLinks>
+        <categoryLink targetId="a4c3-4978-cecf-1854" id="bd0e-f647-cc58-3c54" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="9"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Fuch" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="6763-3ff8-d2f8-9700">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero*</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Fuch</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">10</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">8</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">0</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">4</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="APC" id="3316-6620-e772-e39f" hidden="false" type="rule" targetId="9f32-943e-40a2-34d6"/>
+        <infoLink name="ATV" id="112b-6a3d-83a1-3435" hidden="false" type="rule" targetId="e747-0e5f-ac7e-ba47"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Coche" hidden="false" id="c159-0702-56e9-d6e7">
+      <categoryLinks>
+        <categoryLink targetId="a4c3-4978-cecf-1854" id="86c9-67b8-f81b-c8f2" primary="true" name="Vehiculos APC"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="4"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Coche" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="9239-2129-8bd4-98a8">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Ligero</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Coche</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">6</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">6</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="APC-" id="07b9-28c6-7823-d7ef" hidden="false" type="rule" targetId="3db2-14e5-d34d-60a5"/>
+        <infoLink name="ATV" id="b6f8-7db5-2855-3347" hidden="false" type="rule" targetId="e747-0e5f-ac7e-ba47"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Infanteria (LAW)" hidden="false" id="9ac1-f42e-d46d-45f5">
+      <categoryLinks>
+        <categoryLink targetId="5724-65a6-33b5-3a54" id="7bf8-6a45-991c-7cd3" primary="true" name="Infantería"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="25"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Infanteria (LAW)" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="deb3-d8d4-acb8-08b9">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Infanteria</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Infanteria (LAW)</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8i</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">5</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="LAW" id="7b39-fc16-6714-f40d" hidden="false" type="rule" targetId="9423-f8fc-78c3-fdf3"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Infanteria (MANPAD+LAW)" hidden="false" id="1ed0-d7f5-38a5-cce4">
+      <categoryLinks>
+        <categoryLink targetId="5724-65a6-33b5-3a54" id="81e9-a14e-f631-d6d5" primary="true" name="Infantería"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="33"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Infanteria (MANPAD+LAW)" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="7a07-ece8-cdf5-f84f">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Infanteria</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Infanteria (MANPAD+LAW)</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8i</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">5</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="LAW" id="e5ad-88e6-2cc0-67dd" hidden="false" type="rule" targetId="9423-f8fc-78c3-fdf3"/>
+        <infoLink name="MANPAD" id="04af-836c-d04b-dd3a" hidden="false" type="rule" targetId="0348-fb7d-a376-bed0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Infanteria Elite (MANPAD+LAW)" hidden="false" id="f4a0-4bd0-1015-2ef1">
+      <categoryLinks>
+        <categoryLink targetId="5724-65a6-33b5-3a54" id="09af-1a88-289c-674e" primary="true" name="Infantería"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="37"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Infanteria Elite (MANPAD+LAW)" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="9643-4e09-3205-7cd0">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Infanteria</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Infanteria Elite (MANPAD+LAW)</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8i</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">4+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">5</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="LAW" id="e6b3-ac47-14fb-4e9c" hidden="false" type="rule" targetId="9423-f8fc-78c3-fdf3"/>
+        <infoLink name="MANPAD" id="568a-d3cf-be95-4ea6" hidden="false" type="rule" targetId="0348-fb7d-a376-bed0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Equipo Milan" hidden="false" id="def9-7b2b-47d1-c478">
+      <categoryLinks>
+        <categoryLink targetId="1506-9048-87f6-dad1" id="6697-b5c8-4927-3c2b" primary="true" name="Apoyos"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="38"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="5"/>
+      </costs>
+      <profiles>
+        <profile name="Equipo Milan" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="2cea-713f-3e24-6e48">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Apoyo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Equipo Milan</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f">3+</characteristic>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5">11h</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Inf. Recce" hidden="false" id="3347-5f38-2a02-8583">
+      <categoryLinks>
+        <categoryLink targetId="1506-9048-87f6-dad1" id="17d2-81e4-720d-fbe7" primary="true" name="Apoyos"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="27"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="3"/>
+      </costs>
+      <profiles>
+        <profile name="Inf. Recce" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="4c9f-9aa7-90da-74f3">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Apoyo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Inf. REcce</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">8i</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">5+</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="LAW" id="e915-1c0d-c505-5553" hidden="false" type="rule" targetId="9423-f8fc-78c3-fdf3"/>
+        <infoLink name="Recce" id="21b0-3378-eb1d-a07c" hidden="false" type="rule" targetId="f708-fee3-9a99-17b0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="MANPAD" hidden="false" id="0353-dcb7-9c2f-7d6d">
+      <categoryLinks>
+        <categoryLink targetId="1506-9048-87f6-dad1" id="d423-1458-8532-a399" primary="true" name="Apoyos"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="10"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="MANPAD" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="7785-cef6-713d-ec49">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Apoyo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">MANPAD</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">n/a</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="MANPAD" id="47a9-98e0-62c9-65bd" hidden="false" type="rule" targetId="0348-fb7d-a376-bed0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Mortero" hidden="false" id="c359-8cab-498b-f850">
+      <categoryLinks>
+        <categoryLink targetId="1506-9048-87f6-dad1" id="4caa-aba8-af00-0e6f" primary="true" name="Apoyos"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="defd-805b-7360-3f42" value="29"/>
+        <cost name="BP" typeId="6812-2d73-deb6-b526" value="4"/>
+      </costs>
+      <profiles>
+        <profile name="Mortero" typeId="f37d-a738-931f-5041" typeName="Estandar" hidden="false" id="6c94-594c-60fd-d04d">
+          <characteristics>
+            <characteristic name="Tipo Unidad" typeId="1a5e-3c7a-3ccd-74b2">Apoyo</characteristic>
+            <characteristic name="Nombre" typeId="19f5-7be8-98a0-ac36">Mortero</characteristic>
+            <characteristic name="Blindaje Frontal" typeId="eca2-8382-97a4-2461">n/a</characteristic>
+            <characteristic name="Blindaje Lateral" typeId="30ab-d920-e7dd-c487">n/a</characteristic>
+            <characteristic name="Arma" typeId="d8f7-6453-d033-baae">n/a</characteristic>
+            <characteristic name="Para Imp." typeId="bb98-6e53-8bf0-1edd">8+m</characteristic>
+            <characteristic name="Moral" typeId="ba1b-3364-83d4-d2d4">3</characteristic>
+            <characteristic name="ATGM Para Imp" typeId="6c7a-1007-59ff-ba9f"/>
+            <characteristic name="ATGM Arma" typeId="9aee-48c5-6e19-3bf5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Mortero" id="e1ef-2dd4-6412-f614" hidden="false" type="rule" targetId="8e81-0a7c-cfd8-d85c"/>
+      </infoLinks>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
